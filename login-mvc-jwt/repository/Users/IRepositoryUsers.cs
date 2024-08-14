@@ -7,7 +7,7 @@ namespace login_mvc_jwt.repository.Users
 
         Task<UsersModels> register(registerDto registerDto);
 
-        Task<UsersModels> login (loginDto loginDto);
+        Task<loginResponseDto> login (loginDto loginDto);
 
     }
 }

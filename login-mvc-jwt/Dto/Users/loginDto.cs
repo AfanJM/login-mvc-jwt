@@ -13,5 +13,7 @@ namespace login_mvc_jwt.Dto.Users
         [Required]
         [PasswordPropertyText]
         public string password { get; set; } = null!;
+
+      
     }
 }
