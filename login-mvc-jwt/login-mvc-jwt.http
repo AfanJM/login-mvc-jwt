@@ -1,0 +1,6 @@
+@login_mvc_jwt_HostAddress = http://localhost:5219
+
+GET {{login_mvc_jwt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
